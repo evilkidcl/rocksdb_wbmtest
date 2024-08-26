@@ -4978,6 +4978,7 @@ class Benchmark {
   }
 
   DBWithColumnFamilies* SelectDBWithCfh(uint64_t rand_int) {
+      // TBD
     if (db_.db != nullptr) {
       return &db_;
     } else {
